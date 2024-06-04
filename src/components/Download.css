@@ -1,0 +1,32 @@
+.download-strip {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  margin: 0rem 0rem;
+  display: flex;
+  background-color: skyblue;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1rem;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.download-strip:hover {
+  transform: scale(1.01);
+}
+
+.download-button {
+  background-color: #00b0ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 0rem 1rem;
+  text-align: center;
+}
+
+.download-button:hover {
+  background-color: #008ecc;
+}
